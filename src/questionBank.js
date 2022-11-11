@@ -321,12 +321,82 @@ export const questionBank = [
     },
     // Question 33
     {
-        questionText: "In what year did Amazon buy Whole Foods?",
+        questionText: "What command do you use to download content from a remote repository?",
         answerChoices: [
-            {answerText: "2018", isCorrect: false},
-            {answerText: "2017", isCorrect: false},
-            {answerText: "2012", isCorrect: false},
-            {answerText: "2009", isCorrect: false}  
+            {answerText: "git pull", isCorrect: true},
+            {answerText: "git push", isCorrect: false},
+            {answerText: "git add", isCorrect: false},
+            {answerText: "git commit", isCorrect: false}  
+        ]
+    },
+    // Question 34
+    {
+        questionText: "Which celebrity is Oli London infamous for attempting to replicate?",
+        answerChoices: [
+            {answerText: "Jungkook", isCorrect: false},
+            {answerText: "Jimin", isCorrect: true},
+            {answerText: "Jason Vorhees", isCorrect: false},
+            {answerText: "Janis Ian", isCorrect: false}  
+        ]
+    },
+    // Question 35
+    {
+        questionText: "How many parts (screws & bolts included) does the average car have?",
+        answerChoices: [
+            {answerText: "315,000", isCorrect: false},
+            {answerText: "100,000", isCorrect: false},
+            {answerText: "30,000", isCorrect: true},
+            {answerText: "10,500", isCorrect: false}  
+        ]
+    },
+    // Question 36
+    {
+        questionText: "Which sport is Jesse Owens known for?",
+        answerChoices: [
+            {answerText: "Track & Field", isCorrect: true},
+            {answerText: "Baseball", isCorrect: false},
+            {answerText: "Football", isCorrect: false},
+            {answerText: "Badminton", isCorrect: false}  
+        ]
+    },
+    // Question 37
+    {
+        questionText: "What name does deer meat go by?",
+        answerChoices: [
+            {answerText: "Klingon", isCorrect: false},
+            {answerText: "Harrison", isCorrect: false},
+            {answerText: "Mutton", isCorrect: false},
+            {answerText: "Venison", isCorrect: true}  
+        ]
+    },
+    // Question 38
+    {
+        questionText: "Which bones are babies born without?",
+        answerChoices: [
+            {answerText: "Femurs", isCorrect: false},
+            {answerText: "Fingers", isCorrect: false},
+            {answerText: "Knee Caps", isCorrect: true},
+            {answerText: "Pinky Toes", isCorrect: false}  
+        ]
+    },
+    // Question 39
+    {
+        questionText: "Which American state is the largest by area?",
+        answerChoices: [
+            {answerText: "Texas", isCorrect: false},
+            {answerText: "Alaska", isCorrect: true},
+            {answerText: "California", isCorrect: false},
+            {answerText: "New York", isCorrect: false}  
+        ]
+    },
+    // Question 40
+    {
+        questionText: "Anubis, the God of Death, had the head of a ______.",
+        answerChoices: [
+            {answerText: "Jackal", isCorrect: true},
+            {answerText: "Dog", isCorrect: false},
+            {answerText: "Wolf", isCorrect: false},
+            {answerText: "Kangaroo", isCorrect: false}  
         ]
     },
 ]

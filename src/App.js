@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import { questionBank } from "./questionBank";
+import { useState } from "react";
 
 export default function App() {
   const [ currentQuestion, setCurrentQuestion ] = React.useState(0);
@@ -11,14 +12,18 @@ export default function App() {
     if(isCorrect) {
       setScore(score+1);
     }
+
+    const nextQuestion = currentQuestion + 1;
+    if (nextQuestion < questionBank.length) {
+      setCurrentQuestion(nextQuestion);
+    } else {
+      setShowScore(true);
+    }
   }
 
-  const nextQuestion = currentQuestion + 1;
-  if (nextQuestion < questionBank.length) {
-    setCurrentQuestion(nextQuestion);
-  } else {
-    setShowScore(true);
-  };
+  function reloadPage() {
+    window.location.reload(true);
+  }
 
   return (
     <div className="App">
@@ -30,6 +35,7 @@ export default function App() {
         {showScore ? (
           <section className="show-score-section">
             You got {score} out of {questionBank.length} questions correct!
+            <button onClick={reloadPage}>Start a New Quiz</button>
           </section>
         ):(
           <>
@@ -39,11 +45,11 @@ export default function App() {
             </section>
             
             <section className='answer-section'>
-                {questionBank[currentQuestion].answerChoices.map((item) => {
+                {questionBank[currentQuestion].answerChoices.map((item) => (
               <button onClick={() => correctAnswerHandler(item.isCorrect)}>
                 {item.answerText}
               </button>
-            })}
+            ))}
             </section>
           </>
           )}

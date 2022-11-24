@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <header className="Quiz-header">
+      <header className="quiz-header">
         <h1>World's Randomest Quiz</h1>
         <p>Take the world's randomest quiz!</p>
       </header>
@@ -40,11 +40,11 @@ export default function App() {
         ):(
           <>
             <section className='question-section'>
-                <h2>Question {currentQuestion + 1}/{questionBank.length}</h2>
+                <h2>Question {currentQuestion + 1}</h2>
                 <p>{questionBank[currentQuestion].questionText}</p>
             </section>
             
-            <section className='answer-section'>
+            <section className='answers-section'>
                 {questionBank[currentQuestion].answerChoices.map((item) => (
               <button onClick={() => correctAnswerHandler(item.isCorrect)}>
                 {item.answerText}

@@ -1,12 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    color: #251103;
+    font-family: 'Concert One', 'Roboto', 'Helevtica Nue', sans-serif;
+}
+
 body {
-    margin: 0;
-    font-family: 'Helvetica Neue','Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+    background: linear-gradient(135deg, #ffb872 25%, #ff48a6);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.quiz-header {
+    font-size: 1.82em;
+    text-align: center;
+}
+
+.quiz-container {
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em 0 2em 0;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+.question-section {
+    position: relative;
+    font-size: 2em;
+    align-items: center;
+    row-gap: 2em;
+    padding: 0.5em;
+    column-gap: 1em;
+}
+
+.answers-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin: 1em auto;
+    max-width: 60vh;
+}
+
+button {
+    position: relative;
+    background-color: #f9bb5e;
+    border: 0.5px solid #fb9bd0;
+    border-radius: 0 0.5em 0 0.5em;
+    width: 5em;
+    margin: 0.5em;
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fffb91;
+    transition: all ease-out 0.65s;
+}

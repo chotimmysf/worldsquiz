@@ -201,7 +201,7 @@ export const questionBank = [
     },
     // Question 21
     {
-        questionText: "Which vegetable is originally purple in colour",
+        questionText: "Which vegetable is originally purple in colour?",
         answerChoices: [
             {answerText: "Carrot", isCorrect: true},
             {answerText: "Eggplant", isCorrect: false},

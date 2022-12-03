@@ -5,10 +5,20 @@ import { useState } from "react";
 
 export default function App() {
   const [ currentQuestion, setCurrentQuestion ] = React.useState(0);
+  const [ askedQuestions, setAskedQuestions ] = React.useState(0);
   const [ score, setScore ] = React.useState(0);
   const [ showScore, setShowScore ] = React.useState(false);
 
   const correctAnswerHandler = (isCorrect) => {
+    
+    const generateAskedQuestions = () => {
+      var askedQuestions = [];
+      var setAskedQuestions = questionBank[Math.round(Math.random()*questionBank.length)+1];
+      askedQuestions = askedQuestions.push(setAskedQuestions);
+      return askedQuestions;
+    }
+    generateAskedQuestions();
+
     if(isCorrect) {
       setScore(score+1);
     }
@@ -41,7 +51,8 @@ export default function App() {
           <>
             <section className='question-section'>
                 <h2>Question {currentQuestion + 1}</h2>
-                <p>{questionBank[currentQuestion].questionText}</p>
+                <p className="remaining-questions">{questionBank.length - currentQuestion - 1} questions left</p>
+                <h3>{questionBank[currentQuestion].questionText}</h3>
             </section>
             
             <section className='answers-section'>

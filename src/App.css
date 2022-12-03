@@ -48,6 +48,10 @@ body {
     column-gap: 1em;
 }
 
+.remaining-questions {
+    font-size: 0.75em;
+}
+
 .answers-section {
     display: grid;
     grid-template-columns: 1fr 1fr;

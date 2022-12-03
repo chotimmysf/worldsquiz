@@ -1,6 +1,7 @@
 export const questionBank = [
     // Question 1
     {
+        questionNumber: 1,
         questionText: "What is the world's most spoken language?",
         answerChoices: [
             {answerText: "Spanish", isCorrect: false},
@@ -11,6 +12,7 @@ export const questionBank = [
     },
     // Question 2
     {
+        questionNumber: 2,
         questionText: `Who is best known for the song "All I want for Christmas Is You"?`,
         answerChoices: [
             {answerText: "Mariah Carey", isCorrect: true},
@@ -21,6 +23,7 @@ export const questionBank = [
     },
     // Question 3
     {
+        questionNumber: 3,
         questionText: "What cuisine are tacos associated with?",
         answerChoices: [
             {answerText: "Canadian", isCorrect: false},
@@ -31,6 +34,7 @@ export const questionBank = [
     },
     // Question 4
     {
+        questionNumber: 4,
         questionText: "Which country are you NOT allowed to be naked in the window of your own home?",
         answerChoices: [
             {answerText: "Singapore", isCorrect: true},
@@ -41,6 +45,7 @@ export const questionBank = [
     },
     // Question 5
     {
+        questionNumber: 5,
         questionText: "What is the most popular mobile app?",
         answerChoices: [
             {answerText: "Facebook", isCorrect: false},
@@ -51,6 +56,7 @@ export const questionBank = [
     },
     // Question 6
     {
+        questionNumber:  6,
         questionText: "Which is the most known video game character?",
         answerChoices: [
             {answerText: "Pikachu", isCorrect: false},
@@ -61,6 +67,7 @@ export const questionBank = [
     },
     // Question 7
     {
+        questionNumber: 7,
         questionText: "Which TV show has so much positive feedback, it was considered by the Internet to be a worthy piece of Japanese animation?",
         answerChoices: [
             {answerText: "Pokemon", isCorrect: false},
@@ -71,6 +78,7 @@ export const questionBank = [
     },
     // Question 8
     {
+        questionNumber: 8,
         questionText: "Which of the following sports teams are the most globally famous?",
         answerChoices: [
             {answerText: "New York Yankees", isCorrect: false},
@@ -81,6 +89,7 @@ export const questionBank = [
     },
     // Question 9
     {
+        questionNumber: 9,
         questionText: "What is 1 plus 1?",
         answerChoices: [
             {answerText: "0", isCorrect: false},
@@ -91,6 +100,7 @@ export const questionBank = [
     },
     // Question 10
     {
+        questionNumber:  10,
         questionText: "Which company sells the iPhone?",
         answerChoices: [
             {answerText: "Microsoft", isCorrect: false},
@@ -101,6 +111,7 @@ export const questionBank = [
     },
     // Question 11
     {
+        questionNumber: 11,
         questionText: "How many Harry Potter books are in the series?",
         answerChoices: [
             {answerText: "16", isCorrect: false},
@@ -111,6 +122,7 @@ export const questionBank = [
     },
     // Question 12
     {
+        questionNumber: 12,
         questionText: "Who is the most famous chef?",
         answerChoices: [
             {answerText: "Gordon Ramsay", isCorrect: true},
@@ -121,6 +133,7 @@ export const questionBank = [
     },
     // Question 13
     {
+        questionNumber: 13,
         questionText: "What fashion brand is the most hated for its practices?",
         answerChoices: [
             {answerText: "Forever 21", isCorrect: false},
@@ -131,6 +144,7 @@ export const questionBank = [
     },
     // Question 14
     {
+        questionNumber: 14,
         questionText: "Which country has the most censorship?",
         answerChoices: [
             {answerText: "North Korea", isCorrect: false},
@@ -141,6 +155,7 @@ export const questionBank = [
     },
     // Question 15
     {
+        questionNumber: 15,
         questionText: "Which of the following is the 3rd highest grossing mobile game of all time?",
         answerChoices: [
             {answerText: "Genshin Impact", isCorrect: false},
@@ -151,6 +166,7 @@ export const questionBank = [
     },
     // Question 16
     {
+        questionNumber: 16,
         questionText: "What's the most popular hashtag on Instagram?",
         answerChoices: [
             {answerText: "#ootd", isCorrect: false},
@@ -161,6 +177,7 @@ export const questionBank = [
     },
     // Question 17
     {
+        questionNumber: 17,
         questionText: "In what year was the King James version of the Bible first published?",
         answerChoices: [
             {answerText: "2013", isCorrect: false},
@@ -171,6 +188,7 @@ export const questionBank = [
     },
     // Question 18
     {
+        questionNumber: 18,
         questionText: "In Japan, what is a shinkansen?",
         answerChoices: [
             {answerText: "Cargo Train", isCorrect: false},
@@ -181,6 +199,7 @@ export const questionBank = [
     },
     // Question 19
     {
+        questionNumber: 19,
         questionText: "General Franco was the dictator of which country from 1939 to 1975?",
         answerChoices: [
             {answerText: "Portugal", isCorrect: false},
@@ -191,6 +210,7 @@ export const questionBank = [
     },
     // Question 20
     {
+        questionNumber: 20,
         questionText: "Paris Baguette originated from _______.",
         answerChoices: [
             {answerText: "France", isCorrect: false},
@@ -201,6 +221,7 @@ export const questionBank = [
     },
     // Question 21
     {
+        questionNumber: 21,
         questionText: "Which vegetable is originally purple in colour?",
         answerChoices: [
             {answerText: "Carrot", isCorrect: true},
@@ -211,6 +232,7 @@ export const questionBank = [
     },
     // Question 22
     {
+        questionNumber: 22,
         questionText: "A corncrake is another name for a ______.",
         answerChoices: [
             {answerText: "Chicken", isCorrect: false},
@@ -221,6 +243,7 @@ export const questionBank = [
     },
     // Question 23
     {
+        questionNumber: 23,
         questionText: "Highland Games are a cultural tradition of which country?",
         answerChoices: [
             {answerText: "England", isCorrect: false},
@@ -231,6 +254,7 @@ export const questionBank = [
     },
     // Question 24
     {
+        questionNumber: 24,
         questionText: "Har gow, a traditional dim sum food, originated from which province in China?",
         answerChoices: [
             {answerText: "Shandong", isCorrect: false},
@@ -241,6 +265,7 @@ export const questionBank = [
     },
     // Question 25
     {
+        questionNumber: 25,
         questionText: "On the farm, what is a kid?",
         answerChoices: [
             {answerText: "A baby sheep", isCorrect: false},
@@ -251,6 +276,7 @@ export const questionBank = [
     },
     // Question 26
     {
+        questionNumber: 26,
         questionText: "Imagine you are trying to infect and kill everyone in the world. Which country is the best for doing so before officals take necessary actions to thwart your mission?",
         answerChoices: [
             {answerText: "India", isCorrect: false},
@@ -261,6 +287,7 @@ export const questionBank = [
     },
     // Question 27
     {
+        questionNumber: 27,
         questionText: "What is 1 divided by 1?",
         answerChoices: [
             {answerText: "0", isCorrect: false},
@@ -271,6 +298,7 @@ export const questionBank = [
     },
     // Question 28
     {
+        questionNumber: 28,
         questionText: `What company was originally called "Cadabra"?`,
         answerChoices: [
             {answerText: "Amazon", isCorrect: true},
@@ -281,6 +309,7 @@ export const questionBank = [
     },
     // Question 29
     {
+        questionNumber: 29,
         questionText: "What is 0 minus 1?",
         answerChoices: [
             {answerText: "0", isCorrect: false},
@@ -291,6 +320,7 @@ export const questionBank = [
     },
     // Question 30
     {
+        questionNumber: 30,
         questionText: "In which country can you find The Little Mermaid statue?",
         answerChoices: [
             {answerText: "United States", isCorrect: false},
@@ -301,6 +331,7 @@ export const questionBank = [
     },
     // Question 31
     {
+        questionNumber: 31,
         questionText: "What's the most popular non-local cuisine in Dubai?",
         answerChoices: [
             {answerText: "Italian", isCorrect: false},
@@ -311,6 +342,7 @@ export const questionBank = [
     },
     // Question 32
     {
+        questionNumber: 32,
         questionText: "In what year did Amazon buy Whole Foods?",
         answerChoices: [
             {answerText: "2018", isCorrect: false},
@@ -321,6 +353,7 @@ export const questionBank = [
     },
     // Question 33
     {
+        questionNumber: 33,
         questionText: "What command do you use to download content from a remote repository?",
         answerChoices: [
             {answerText: "git pull", isCorrect: true},
@@ -331,6 +364,7 @@ export const questionBank = [
     },
     // Question 34
     {
+        questionNumber: 34,
         questionText: "Which celebrity is Oli London infamous for attempting to replicate?",
         answerChoices: [
             {answerText: "Jungkook", isCorrect: false},
@@ -341,6 +375,7 @@ export const questionBank = [
     },
     // Question 35
     {
+        questionNumber: 35,
         questionText: "How many parts (screws & bolts included) does the average car have?",
         answerChoices: [
             {answerText: "315,000", isCorrect: false},
@@ -351,6 +386,7 @@ export const questionBank = [
     },
     // Question 36
     {
+        questionNumber: 36,
         questionText: "Which sport is Jesse Owens known for?",
         answerChoices: [
             {answerText: "Track & Field", isCorrect: true},
@@ -361,6 +397,7 @@ export const questionBank = [
     },
     // Question 37
     {
+        questionNumber: 37,
         questionText: "What name does deer meat go by?",
         answerChoices: [
             {answerText: "Klingon", isCorrect: false},
@@ -371,6 +408,7 @@ export const questionBank = [
     },
     // Question 38
     {
+        questionNumber: 38,
         questionText: "Which bones are babies born without?",
         answerChoices: [
             {answerText: "Femurs", isCorrect: false},
@@ -381,6 +419,7 @@ export const questionBank = [
     },
     // Question 39
     {
+        questionNumber: 39,
         questionText: "Which American state is the largest by area?",
         answerChoices: [
             {answerText: "Texas", isCorrect: false},
@@ -391,6 +430,7 @@ export const questionBank = [
     },
     // Question 40
     {
+        questionNumber: 40,
         questionText: "Anubis, the God of Death, had the head of a ______.",
         answerChoices: [
             {answerText: "Jackal", isCorrect: true},
